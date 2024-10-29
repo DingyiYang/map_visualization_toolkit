@@ -1,0 +1,50 @@
+{
+"input_region_level_1":"province",
+"input_region_level_2":"",
+"input_time_name":"year",
+"path_input_time":"",
+"path_source_name":"",
+"path_target_name":"",
+"data_infos":
+	[{
+		"input_pro":"gdp",
+		"father_pro":"",
+		"english_name":"GDP","chinese_name":"GDP",
+		"is_number":1,
+		"is_unit_time":0,
+		"is_unit_person":1,
+		"is_time_varying":1,
+		"data_type":"Total",
+		"english_unit":" (¥ Billion)","chinese_unit":" (亿元)",
+		"map_data_range":[],
+		"map_color_range":"",
+		"circle_color":""
+	 }],
+"is_date_data":1,
+"time_unit":"year",
+"is_data2axis":0,
+"axis_range":
+	[],
+"data_point":
+	[],
+"use_brush":0,
+"use_dragBlock":1,
+"web_title": "GDP: China Condition",
+"chinese_title": "GDP: 中国内地各省历年变化",
+"sub_tiltle": "Up to ",
+"sub_tiltle_chinese": "数据截止至",
+"chinese_hint":"",
+"english_hint":"",
+"path_explain_chinese":"",
+"path_explain_english":"",
+"dataSource":
+	"World Bank Open Data",
+"dataSource_chinese":
+	"CSDN",
+"data_url":
+	"https://download.csdn.net/download/qq_28218493/12341299",
+"mapSource":
+	"github.com/iWun/china_geojson",
+"map_url":
+	"https://github.com/iWun/china_geojson"
+}
