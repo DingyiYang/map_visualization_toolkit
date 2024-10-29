@@ -1,0 +1,72 @@
+{
+"input_region_level_1":"省份",
+"input_region_level_2":"",
+"input_time_name":"公开时间",
+"path_input_time":"",
+"path_source_name":"",
+"path_target_name":"",
+"data_infos":
+	[{
+		"input_pro":"新增确诊病例",
+		"father_pro":"",
+		"english_name":"Confirmed","chinese_name":"确诊",
+		"is_number":1,
+		"is_unit_time":0,
+		"is_unit_person":1,
+		"is_time_varying":1,
+		"data_type":"Newly",
+		"english_unit":"Cases","chinese_unit":"人数",
+		"map_data_range":[],
+		"map_color_range":"",
+		"circle_color":""
+	 },
+	 {
+		"input_pro":"新增治愈出院数",
+		"father_pro":"Confirmed",
+		"english_name":"Recovered", "chinese_name":"治愈",
+		"is_number":1, "is_unit_person":1, "is_unit_time":0,
+		"is_time_varying":1,
+		"data_type":"Newly",
+		"english_unit":"Cases", "chinese_unit":"人数",
+		"map_data_range":[], "map_color_range":"",
+		"circle_color":""
+	 },
+	 {
+		"input_pro":"新增死亡数",
+		"father_pro":"Confirmed",
+		"english_name":"Dead", "chinese_name":"死亡",
+		"is_number":1, "is_unit_person":1, "is_unit_time":0,
+		"is_time_varying":1,
+		"data_type":"Newly",
+		"english_unit":"Cases", "chinese_unit":"人数",
+		"map_data_range":[], "map_color_range":"",
+		"circle_color":""
+	 }],
+"is_date_data":1,
+"time_unit":"date",
+"is_data2axis":0,
+"axis_range":
+	[],
+"data_point":
+	[{"year":20191231,"event":"Report of pneumonia with unknown causes in China","chinese_event":"武汉出现不明原因肺炎病人"},
+	{"year":20200111,"event":"Report of 41 confirmed cases in China","chinese_event":"中国武汉确诊41例新型冠状病毒"},
+	{"year":20200119,"event":"First detected in Beijing, Guangdong","chinese_event":"首次在湖北以外省份确诊"},
+	{"year":20200131,"event":"More than 10000 cases confirmed","chinese_event":"全国确诊人数超10000"},
+	{"year":20200210,"event":"Start directional supports","chinese_event":"确定了支援武汉以外16个外地市的对口支援关系"}],
+"use_brush":0,
+"use_dragBlock":1, 
+"web_title": "COVID-19: China Condition",
+"chinese_title": "新型冠状病毒感染肺炎疫情: 中国疫情态势",
+"sub_tiltle": "Up to ",
+"sub_tiltle_chinese": "数据截止至",
+"dataSource":
+	"World Health Organization",
+"dataSource_chinese":
+	"世界卫生组织",
+"data_url":
+	"https://www.who.int/",
+"mapSource":
+	"github.com/johan/world.geo.json",
+"map_url":
+	"https://github.com/johan/world.geo.json"
+}
